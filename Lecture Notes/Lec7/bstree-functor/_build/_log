@@ -1,0 +1,10 @@
+### Starting build.
+# Target: bstree.mli.depends, tags: { extension:mli, file:bstree.mli, ocaml, ocamldep, quiet }
+ocamldep.opt -modules bstree.mli > bstree.mli.depends # cached
+# Target: bstree.cmi, tags: { byte, compile, extension:mli, file:bstree.mli, interf, ocaml, quiet }
+ocamlc.opt -c -o bstree.cmi bstree.mli # cached
+# Target: bstree.ml.depends, tags: { extension:ml, file:bstree.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules bstree.ml > bstree.ml.depends # cached
+# Target: bstree.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:bstree.cmo, file:bstree.ml, implem, ocaml, quiet }
+ocamlc.opt -c -o bstree.cmo bstree.ml # cached
+# Compilation successful.
